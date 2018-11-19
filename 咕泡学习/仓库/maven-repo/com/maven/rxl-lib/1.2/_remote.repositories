@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 16 13:44:01 CST 2018
+rxl-lib-1.2-jar-with-dependencies.jar>=
+rxl-lib-1.2.jar>=
+rxl-lib-1.2.pom>=
