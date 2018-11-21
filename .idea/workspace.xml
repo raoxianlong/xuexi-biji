@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0432902-7441-4754-a14e-f9d8bbbdbf6b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml.versionsBackup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxl-lib/d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxl-lib/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxl-lib/pom.xml.versionsBackup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxl-lib/rxl-lib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxl-lib/src/main/java/regex/IntegerMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxl-lib/src/main/java/test/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxl-lib/src/main/resources/conf/dev/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxl-lib/src/main/resources/conf/pro/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxl-lib/src/main/resources/conf/test/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxl-lib/target/classes/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxl-lib/target/classes/regex/IntegerMatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxl-lib/target/classes/test/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxl-maven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/rxl-lib/__artifactId__.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/rxl-lib/d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/rxl-lib/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/rxl-lib/src/main/java/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/rxl-lib/src/main/resources/conf/__package__/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/rxl-lib/src/main/resources/conf/dev/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/rxl-lib/src/main/resources/conf/pro/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/test/resources/projects/basic/archetype.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/test/resources/projects/basic/goal.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/META-INF/maven/archetype-metadata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/rxl-lib/__artifactId__.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/rxl-lib/d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/rxl-lib/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/rxl-lib/src/main/java/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/rxl-lib/src/main/resources/conf/__package__/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/rxl-lib/src/main/resources/conf/dev/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/rxl-lib/src/main/resources/conf/pro/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/rxl-maven-archetype-1.4-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/archetype.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/goal.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/rxl-lib/d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/rxl-lib/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/rxl-lib/src/main/java/it/pkg/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/rxl-lib/src/main/resources/conf/dev/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/rxl-lib/src/main/resources/conf/it.pkg/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/rxl-lib/src/main/resources/conf/pro/app.properties" afterDir="false" />
+    </list>
+    <ignored path="rxl-maven.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/rxl-lib/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="422065127">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+          <entry key="pom" value="1" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="2" />
+          <entry key="xsd" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="335" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="335" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="rxl-maven" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rxl-lib/src/main/java/test/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rxl-lib/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rxl-lib/src/main/java/regex/IntegerMatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="D:/BaiduNetdiskDownload/project/thymeleaf-in-action" value="1532334765247" />
+        <entry key="$PROJECT_DIR$/../../rxl/springboot/demo1/demo1" value="3061299632000" />
+        <entry key="$PROJECT_DIR$/../../rxl/springboot/thymeleaf-demo2" value="3064741272000" />
+        <entry key="$PROJECT_DIR$/../../rxl/springboot/thymelefa-in-action/demo1" value="3062521922665" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/d.txt" />
+        <option value="$PROJECT_DIR$/rxl-lib/d.txt" />
+        <option value="$PROJECT_DIR$/rxl-lib/src/main/java/test/Demo.java" />
+        <option value="$PROJECT_DIR$/rxl-lib/src/main/resources/conf/dev/app.properties" />
+        <option value="$PROJECT_DIR$/rxl-lib/src/main/resources/conf/pro/app.properties" />
+        <option value="$PROJECT_DIR$/rxl-lib/src/main/resources/conf/test/app.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/rxl-lib/src/main/java/regex/IntegerMatch.java" />
+        <option value="$PROJECT_DIR$/rxl-lib/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/002559/桌面/我的文档/咕泡学习/工具/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\002559\桌面\我的文档\咕泡学习\工具\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1924" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>LossyEncoding</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rxl-maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rxl-maven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rxl-maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rxl-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="rxl-lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rxl-maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rxl-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="rxl-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rxl-maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rxl-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="rxl-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rxl-maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rxl-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="rxl-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542794207023" />
+    <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my\work18\rxl-maven\rxl-lib\src\main\resources\conf\test" />
+      <recent name="D:\my\work18\rxl-maven\rxl-lib\src\main\resources\conf\pro" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my\work18\rxl-maven\rxl-lib\src\main\resources\conf\dev" />
+      <recent name="D:\my\work18\rxl-maven\rxl-lib\src\main\resources\conf\pro" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.IntegerMatch">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Demo" />
+      <module name="rxl-lib" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegerMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="regex.IntegerMatch" />
+      <module name="rxl-lib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="regex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rxl-lib [assembly:help]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="assembly:help" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/rxl-lib" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="Maven.rxl-lib [assembly:help]" />
+      <item itemvalue="Application.IntegerMatch" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IntegerMatch" />
+        <item itemvalue="Maven.rxl-lib [assembly:help]" />
+        <item itemvalue="Application.Demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0432902-7441-4754-a14e-f9d8bbbdbf6b" name="Default" comment="" />
+      <created>1536823128957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536823128957</updated>
+      <workItem from="1536823131208" duration="205000" />
+      <workItem from="1536823402943" duration="2491000" />
+      <workItem from="1536829589591" duration="7100000" />
+      <workItem from="1537148996479" duration="12671000" />
+      <workItem from="1537262162738" duration="4554000" />
+      <workItem from="1538285684752" duration="2950000" />
+      <workItem from="1539162297825" duration="1070000" />
+      <workItem from="1539245779588" duration="5519000" />
+      <workItem from="1539308578276" duration="3048000" />
+      <workItem from="1540375632723" duration="685000" />
+      <workItem from="1542075187028" duration="3881000" />
+      <workItem from="1542091587699" duration="2552000" />
+      <workItem from="1542096332302" duration="4830000" />
+      <workItem from="1542249534158" duration="1055000" />
+      <workItem from="1542337697785" duration="10052000" />
+      <workItem from="1542590804030" duration="1751000" />
+      <workItem from="1542683840777" duration="205000" />
+      <workItem from="1542694516477" duration="11086000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="76267000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31183368" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Palette&#9;" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.32827735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" x="6" y="225" width="1908" height="544" id="Terminal" order="8" visible="true" weight="0.62147504" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4989339" weight="0.32936078" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Designer" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.13486141" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/d.txt" />
+    <entry file="jar://D:/common/work-util/jdk1.8.0_31/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rxl-lib/target/maven-archiver/pom.properties" />
+    <entry file="file://$PROJECT_DIR$/rxl-lib/target/classes/app.properties" />
+    <entry file="jar://D:/002559/桌面/我的文档/咕泡学习/仓库/maven-repo/org/apache/maven/plugins/maven-source-plugin/3.0.1/maven-source-plugin-3.0.1.jar!/META-INF/maven/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="633" column="4" selection-start-line="633" selection-start-column="4" selection-end-line="633" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rxl-lib/src/main/resources/conf/test/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rxl-lib/src/main/resources/conf/pro/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rxl-lib/src/main/resources/conf/dev/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/002559/桌面/我的文档/咕泡学习/仓库/maven-repo/org/apache/maven/plugins/maven-assembly-plugin/3.1.0/maven-assembly-plugin-3.1.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1242" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="1490" column="6" selection-start-line="1490" selection-start-column="6" selection-end-line="1490" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rxl-lib/d.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2467">
+          <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rxl-lib/src/main/java/test/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rxl-lib/src/main/java/regex/IntegerMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rxl-lib/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7.0_09</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>rxl-lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7.0_09</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
