@@ -1,0 +1,11 @@
+#classes
+target/*
+
+#idea
+.idea/*
+.idea/workspace.xml
+*.iml
+*.tmp
+
+src/main/resources/
+src/test/

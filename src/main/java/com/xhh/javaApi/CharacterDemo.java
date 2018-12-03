@@ -6,6 +6,7 @@ public class CharacterDemo {
 
     public static void main(String[] args) {
 
+
         Character ch = 'a'; //自动装箱
 
         System.out.println(" [判断是否是字母] isLetter(char ch) : " + Character.isLetter(ch));
