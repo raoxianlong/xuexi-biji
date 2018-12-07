@@ -1,14 +1,18 @@
-package com.xhh.javaApi;
+package com.xhh.javaApi.ReflectApi;
 
+
+import org.junit.Test;
+
+import java.util.ResourceBundle;
 
 /**
  * 反射
  */
 public class ReflectDemo {
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws IllegalAccessException, InstantiationException, ClassNotFoundException {
         /*try {
-            Class<?> clazz  = Class.forName("com.xhh.javaApi.Book1");
+            Class<?> clazz  = Class.forName("com.xhh.javaApi.ReflectApi.Book1");
             Object object = clazz.newInstance();
             System.out.println(object);
         } catch (ClassNotFoundException e) {
@@ -21,9 +25,22 @@ public class ReflectDemo {
         Msg msg = new Emails();
         msg.print("今天没下雨");
 
+        ResourceBundle resourceBundle = ResourceBundle.getBundle("msg");
+        String className = resourceBundle.getString("class.name");
 
-
+        Msg msg1 =  SimpleFactory.getNewInstance(className);
+        msg1.print("今天风好大");
     }
+
+
+    @Test
+    public void test(){
+        String[] str = {"小明", "小红"};
+        System.out.println(str.getClass().getTypeName());
+        System.out.println(str.getClass().getSimpleName());
+    }
+
+
 }
 
 
@@ -46,15 +63,21 @@ class Emails implements Msg{
  */
 class SimpleFactory{
 
-    public static Msg getNewInstance(String className){
-        if ("News".equalsIgnoreCase(className)){
+    public static Msg getNewInstance(String className) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
+        /*if ("News".equalsIgnoreCase(className)){
             return  new News();
         }else if("Emails".equalsIgnoreCase(className)){
             return new Emails();
         }
-        return null;
+        return null;*/
+        Class<?> clazz = Class.forName(className);
+        Msg msg = (Msg) clazz.newInstance();
+        return msg;
+
     }
 }
+
+
 
 class Book1 {
 
