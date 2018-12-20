@@ -1,6 +1,7 @@
 package com.xhh.javaApi.ReflectApi;
 
 import java.io.Serializable;
+import java.util.Arrays;
 import java.util.Date;
 
 public class Dep implements Serializable {
@@ -8,7 +9,7 @@ public class Dep implements Serializable {
     private String name;
     private Date time;
     private Integer peopleNums;
-    private Company sCompany;
+    private Company company;
     private String[] empNames;
 
     public String[] getEmpNames() {
@@ -41,11 +42,22 @@ public class Dep implements Serializable {
         this.peopleNums = peopleNums;
     }
 
-    public Company getsCompany() {
-        return sCompany;
+    public Company getCompany() {
+        return company;
     }
 
-    public void setsCompany(Company sCompany) {
-        this.sCompany = sCompany;
+    public void setCompany(Company company) {
+        this.company = company;
+    }
+
+    @Override
+    public String toString() {
+        return "Dep{" +
+                "name='" + name + '\'' +
+                ", time=" + time +
+                ", peopleNums=" + peopleNums +
+                ", company=" + company +
+                ", empNames=" + Arrays.toString(empNames) +
+                '}';
     }
 }

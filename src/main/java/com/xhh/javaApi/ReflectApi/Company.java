@@ -10,6 +10,7 @@ public class Company implements Serializable {
     private Date time;
     private Integer peopleNums;
     private Double register;
+    private Byte[] status;
 
     public String getId() {
         return id;
@@ -49,5 +50,16 @@ public class Company implements Serializable {
 
     public void setRegister(Double register) {
         this.register = register;
+    }
+
+    @Override
+    public String toString() {
+        return "Company{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", time=" + time +
+                ", peopleNums=" + peopleNums +
+                ", register=" + register +
+                '}';
     }
 }

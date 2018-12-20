@@ -59,4 +59,16 @@ public class Emp implements Serializable {
     public void setCompany(Company company) {
         this.company = company;
     }
+
+    @Override
+    public String toString() {
+        return "Emp{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", age=" + age +
+                ", df=" + df +
+                ", dep=" + dep +
+                ", company=" + company +
+                '}';
+    }
 }

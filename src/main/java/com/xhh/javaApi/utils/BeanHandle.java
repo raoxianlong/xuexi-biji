@@ -1,6 +1,8 @@
 package com.xhh.javaApi.utils;
 
 import java.lang.reflect.Field;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 
 public class BeanHandle {
 
@@ -15,6 +17,7 @@ public class BeanHandle {
         this.value = value;
         this.lastObject = obj;
         this.curObject = obj;
+        handleString();
     }
 
     /**
@@ -30,9 +33,13 @@ public class BeanHandle {
 
             while(i > 0){
                 this.lastObject = this.curObject;
-                this.curObject = this.field.getType().newInstance();
-                ReflectUtil.setValue(lastObject,attrs[index] , this.curObject);
+                curObject = ReflectUtil.getValue(lastObject, field.getName());
+                if (curObject ==null){
+                    this.curObject = this.field.getType().newInstance();
+                    ReflectUtil.setValue(lastObject, attrs[index] , this.curObject);
+                }
                 this.field = ReflectUtil.getFiled(this.curObject.getClass(), attrs[++index]);
+                i--;
             }
             setFiledValue(curObject, field, value);
         } catch (InstantiationException e) {
@@ -118,9 +125,14 @@ public class BeanHandle {
                     ReflectUtil.setValue(obj, field.getName(), Long.parseLong(val));
                 }else if (type.equals("Boolean") || type.equals("boolean")){
                     ReflectUtil.setValue(obj, field.getName(), Boolean.parseBoolean(val));
+                }else if (type.equals("Date")){
+                    ReflectUtil.setValue(obj, field.getName(),
+                            new SimpleDateFormat("yyyy-MM-dd").parse(val));
                 }
             }
         } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (ParseException e) {
             e.printStackTrace();
         }
     }

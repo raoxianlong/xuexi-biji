@@ -7,7 +7,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Modifier;
 
 /**
- * Constructor类练习
+ * Constructor类练习s
  */
 public class ConstructorDemo {
 

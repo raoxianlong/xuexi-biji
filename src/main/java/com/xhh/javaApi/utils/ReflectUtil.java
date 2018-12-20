@@ -35,7 +35,8 @@ public class ReflectUtil {
     public static void setValue(Object obj, String fieldName, Object value){
         try {
             Class<?> clazz = obj.getClass();
-            Method method = clazz.getMethod("set" + StringUtil.initcap(fieldName));
+            Field field = getFiled(clazz, fieldName);
+            Method method = clazz.getMethod("set" + StringUtil.initcap(fieldName), field.getType());
             method.invoke(obj, value);
         } catch (NoSuchMethodException e) {
             e.printStackTrace();
@@ -45,4 +46,25 @@ public class ReflectUtil {
             e.printStackTrace();
         }
     }
+
+    /**
+     *  获取置字段值
+     * @param fieldName
+     */
+    public static Object getValue(Object obj, String fieldName){
+        try {
+            Class<?> clazz = obj.getClass();
+            Field field = getFiled(clazz, fieldName);
+            Method method = clazz.getMethod("get" + StringUtil.initcap(fieldName));
+            return  method.invoke(obj);
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
 }
