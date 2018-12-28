@@ -1,4 +1,4 @@
-package com.xhh.javaApi.io;
+package com.xhh.javaApi.bio;
 
 import annotation.Controller;
 import annotation.RequestMapping;
@@ -6,7 +6,6 @@ import org.junit.Test;
 
 import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
@@ -37,7 +36,7 @@ public class FileDemo {
         if (!file.exists()){
             // 所以在创建文件之前需要判断父路径是否存在
             if (! file.getParentFile().exists()){
-                // 因为该目录不存在，所以直接创建文件会抛 java.io.IOException: 系统找不到指定的路径。
+                // 因为该目录不存在，所以直接创建文件会抛 java.bio.IOException: 系统找不到指定的路径。
                 // 不存在则需要创建父目录，注意这里如果用 mkdir()方法也是不会抛异常，
                 // 如果目录有多级则只能用mkdirs()，然后再创建文件
                 file.getParentFile().mkdirs();

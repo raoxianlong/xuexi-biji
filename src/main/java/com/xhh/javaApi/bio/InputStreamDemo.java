@@ -1,4 +1,4 @@
-package com.xhh.javaApi.io;
+package com.xhh.javaApi.bio;
 
 import org.junit.Test;
 
@@ -68,8 +68,23 @@ public class InputStreamDemo {
      *  文件拷贝
      */
     @Test
-    public void copy(){
+    public void copy() throws IOException {
+        long start = System.currentTimeMillis();
+        InputStream in = new FileInputStream(new File(file.getParentFile(), "222.txt"));
+        File outFile = new File(file.getParentFile(), "a.txt");
 
+        OutputStream out = new FileOutputStream(outFile);
+
+        byte[] data = new byte[1024];
+        int len = 0;
+        while ((len = in.read(data)) != -1){
+            out.write(data, 0, len);
+        }
+        in.close();
+        out.close();
+        long end = System.currentTimeMillis();
+
+        System.out.println("耗时:" +(end - start) +"ms");
     }
 
 

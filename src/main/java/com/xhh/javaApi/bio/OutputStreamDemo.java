@@ -1,9 +1,8 @@
-package com.xhh.javaApi.io;
+package com.xhh.javaApi.bio;
 
 import org.junit.Test;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 

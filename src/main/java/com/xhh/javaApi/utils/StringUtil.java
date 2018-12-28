@@ -16,4 +16,14 @@ public class StringUtil {
         }
     }
 
+    public static boolean isNotBlank(String string){
+        if (string == null){
+            return false;
+        }
+        if (string.trim().equals("")){
+            return false;
+        }
+        return true;
+    }
+
 }
