@@ -26,7 +26,6 @@ public class ServerChannelDemo {
         server.configureBlocking(false);
         // 绑定端口号
         server.bind(new InetSocketAddress(8089));
-        // 获取选择器
         Selector selector = Selector.open();
         // 将通道注册到选择器中
         server.register(selector, SelectionKey.OP_ACCEPT);
