@@ -6,7 +6,6 @@ import com.xhh.javaApi.socket.tcpAndUdp.constant.UDPConstants;
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
-import java.net.SocketException;
 import java.nio.ByteBuffer;
 import java.util.UUID;
 
@@ -63,13 +62,13 @@ public class ServerProvider {
 
                     // 打印发送者的IP
                     String ip = packet.getAddress().getHostAddress();
-                    int port = packet.getPort();
+                    int rPort = packet.getPort();
                     int dataLen = packet.getLength();
                     byte[] data = packet.getData();
 
                     boolean isValid = dataLen >= (UDPConstants.HEADER.length + 2 + 4);
 
-                    System.out.println("接受到消息：" + "ip = " + ip + ":" + port);
+                    System.out.println("接受到消息：" + "ip = " + ip + ":" + rPort);
                     if (!isValid){
                         continue;
                     }

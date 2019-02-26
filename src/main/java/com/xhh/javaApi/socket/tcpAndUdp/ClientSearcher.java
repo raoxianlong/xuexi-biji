@@ -45,6 +45,9 @@ public class ClientSearcher {
         for (ServerInfo info : serverInfoList){
             System.out.println(info);
         }
+        if (!serverInfoList.isEmpty()){
+            return serverInfoList.get(0);
+        }
         return null;
     }
 
@@ -79,7 +82,7 @@ public class ClientSearcher {
         byteBuffer.putInt(LISTEN_PORT);
 
         DatagramPacket packet = new DatagramPacket(byteBuffer.array(), byteBuffer.position() + 1);
-        String broadcastAddress =UDPConstants. getLocalBroadCast();
+        String broadcastAddress =UDPConstants.getLocalBroadCast();
         packet.setAddress(InetAddress.getByName(broadcastAddress));
         packet.setPort(UDPConstants.PORT_SERVER);
         datagramSocket.send(packet);
@@ -116,6 +119,7 @@ public class ClientSearcher {
                 ds = new DatagramSocket(listenPort);
                 DatagramPacket datagramPacket = new DatagramPacket(buffer, buffer.length);
                 while (!done){
+                    System.out.println("done:" + done);
                     ds.receive(datagramPacket);
                     // 接收完成之后解析发送者的ip、port、sn
                     String ip = datagramPacket.getAddress().getHostAddress();
